@@ -292,7 +292,7 @@ proxyTable：这个属性用于将请求转发到指定地址去。这里的配�
 
 index/index.html
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -307,7 +307,7 @@ index/index.html
 ```
 index/index.js
 
-```
+```javascript
 import Vue from 'vue'
 import IndexView from './index.vue'
 import router from './router'
@@ -324,7 +324,7 @@ new Vue({
 ```
 index/index.vue
 
-```
+```html
 <template>
   <div>
     <router-view></router-view>
@@ -342,7 +342,7 @@ index/index.vue
 ```
 index/router/index.js
 
-```
+```javascript
 import Vue from 'vue'
 import Router from 'vue-router'
 import Hello from '../components/Hello.vue'
@@ -362,7 +362,7 @@ export default new Router({
 ```
 index/components/Hello.vue
 
-```
+```html
 <template>
   <div>
     Hello {{ name }}
@@ -390,7 +390,7 @@ index/components/Hello.vue
 ```
 login/login.html
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -420,7 +420,7 @@ new Vue({
 ```
 login/login.vue
 
-```
+```html
 <template>
   <div>
     <form id="login-form">
